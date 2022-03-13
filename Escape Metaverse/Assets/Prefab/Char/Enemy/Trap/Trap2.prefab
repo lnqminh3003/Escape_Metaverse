@@ -613,6 +613,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plane
       objectReference: {fileID: 0}
+    - target: {fileID: 8475302908687676236, guid: 31732ed0ec3f7b0468be163cdcc2ac7e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Trap
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31732ed0ec3f7b0468be163cdcc2ac7e, type: 3}
 --- !u!1 &4732712742000656860 stripped
