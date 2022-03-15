@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 4125259779975120183}
   m_Layer: 0
   m_Name: Elevator
-  m_TagString: Decor
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -109,8 +109,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bad08e2a2bf4c740896c6e67379fd8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 30
-  limitUp: 10.75
+  speed: 63
+  limitUp: 9.52
   limitDown: 0
 --- !u!54 &4125259779975120183
 Rigidbody:

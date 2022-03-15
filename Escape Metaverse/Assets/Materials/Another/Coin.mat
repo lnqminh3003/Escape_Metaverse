@@ -9,8 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Coin
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _EMISSION
-  m_LightmapFlags: 0
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -73,5 +73,6 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.9330709, g: 1, b: 0, a: 1}
-    - _EmissionColor: {r: 0.6415094, g: 0.6213836, b: 0, a: 1}
+    - _Color: {r: 1, g: 0.81124496, b: 0, a: 1}
+    - _EmissionColor: {r: 0.3984514, g: 0.6981132, b: 0.6550252, a: 1}
+  m_BuildTextureStacks: []
