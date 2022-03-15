@@ -35,7 +35,7 @@ public class EnemyAttack : MonoBehaviour
     {
         var pro = Instantiate(projectile, gun.transform.position, Quaternion.identity);
         pro.setDirection(target ,effectDamage);
-        Destroy(pro.gameObject, 2f);
+        Destroy(pro.gameObject, 10f);
     }
 
 }

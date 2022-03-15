@@ -7,7 +7,6 @@ public class EnemyProjectile : MonoBehaviour
 {
     [SerializeField] float speed;
     [SerializeField] int damage;
-    [SerializeField] GameObject effectDamage;
 
     bool getDirection = false;
     HealthPlayer healthPlayer;
@@ -44,11 +43,4 @@ public class EnemyProjectile : MonoBehaviour
             Instantiate(effect, gameObject.transform.position, Quaternion.identity);
         }
     }
-
-    IEnumerator WaitForSeconds()
-    {
-        yield return new WaitForSeconds(1f);
-    }
-
-
 }

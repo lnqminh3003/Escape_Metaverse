@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2679517104895019735}
   - component: {fileID: 2679517104895019732}
   m_Layer: 0
-  m_Name: EnemyGun
+  m_Name: EneGunWater
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -116,6 +116,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8702594413939433155, guid: 18ad4e9b66dd46844a3c395d13d314c0,
+        type: 3}
+      propertyPath: m_Name
+      value: target
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18ad4e9b66dd46844a3c395d13d314c0, type: 3}
