@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Coin : MonoBehaviour
 {
+    [SerializeField] GameObject coin;
     [SerializeField] int point;
 
     bool checkCollision;
@@ -17,8 +18,8 @@ public class Coin : MonoBehaviour
         if (checkCollision)
         {
             checkCollision = !checkCollision;
-            GameObject.FindWithTag("Player").GetComponent<PointPlayer>().AddPointMoney(point);          
-            Destroy(gameObject);
+            GameObject.FindWithTag("Player").GetComponent<MyWallet>().AddCoin01(point);          
+            Destroy(coin);
         }
     }
 }

@@ -96,7 +96,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -125,6 +125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10eb0b315ff3fdd49afc523bcdbe5292, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinControl: {fileID: 2253882083289114907}
 --- !u!1 &122545611412740713
 GameObject:
   m_ObjectHideFlags: 0
@@ -221,7 +222,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -250,6 +251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10eb0b315ff3fdd49afc523bcdbe5292, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinControl: {fileID: 2253882083289114907}
 --- !u!1 &406727426930132313
 GameObject:
   m_ObjectHideFlags: 0
@@ -346,7 +348,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -375,6 +377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10eb0b315ff3fdd49afc523bcdbe5292, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinControl: {fileID: 2253882083289114907}
 --- !u!1 &938985302134253012
 GameObject:
   m_ObjectHideFlags: 0
@@ -471,7 +474,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -500,6 +503,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10eb0b315ff3fdd49afc523bcdbe5292, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinControl: {fileID: 2253882083289114907}
 --- !u!1 &1373959522038390296
 GameObject:
   m_ObjectHideFlags: 0
@@ -596,7 +600,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -625,6 +629,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10eb0b315ff3fdd49afc523bcdbe5292, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinControl: {fileID: 2253882083289114907}
 --- !u!1 &1435113839604465281
 GameObject:
   m_ObjectHideFlags: 0
@@ -721,7 +726,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -750,6 +755,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10eb0b315ff3fdd49afc523bcdbe5292, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinControl: {fileID: 2253882083289114907}
 --- !u!1 &3363758398797911971
 GameObject:
   m_ObjectHideFlags: 0
@@ -846,7 +852,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -875,6 +881,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10eb0b315ff3fdd49afc523bcdbe5292, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinControl: {fileID: 2253882083289114907}
 --- !u!1 &3935175439653304251
 GameObject:
   m_ObjectHideFlags: 0
@@ -886,7 +893,7 @@ GameObject:
   - component: {fileID: 3935175439653304250}
   - component: {fileID: 2253882083289114907}
   m_Layer: 0
-  m_Name: Coin
+  m_Name: Component Coin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -919,7 +926,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc546c3d2a50ba74b9e7376243190da8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  point: 0
+  coin: {fileID: 0}
+  point: 10
 --- !u!1 &3935175439801639163
 GameObject:
   m_ObjectHideFlags: 0
@@ -1016,7 +1024,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -1045,6 +1053,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10eb0b315ff3fdd49afc523bcdbe5292, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinControl: {fileID: 2253882083289114907}
 --- !u!1 &5105323441482188081
 GameObject:
   m_ObjectHideFlags: 0
@@ -1141,7 +1150,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -1170,6 +1179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10eb0b315ff3fdd49afc523bcdbe5292, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinControl: {fileID: 2253882083289114907}
 --- !u!1 &5856180255233604053
 GameObject:
   m_ObjectHideFlags: 0
@@ -1266,7 +1276,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -1295,6 +1305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10eb0b315ff3fdd49afc523bcdbe5292, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinControl: {fileID: 2253882083289114907}
 --- !u!1 &6318919937340973587
 GameObject:
   m_ObjectHideFlags: 0
@@ -1391,7 +1402,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -1420,6 +1431,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10eb0b315ff3fdd49afc523bcdbe5292, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinControl: {fileID: 2253882083289114907}
 --- !u!1 &7833179587820570783
 GameObject:
   m_ObjectHideFlags: 0
@@ -1516,7 +1528,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -1545,6 +1557,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10eb0b315ff3fdd49afc523bcdbe5292, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinControl: {fileID: 2253882083289114907}
 --- !u!1 &8154320012099306978
 GameObject:
   m_ObjectHideFlags: 0
