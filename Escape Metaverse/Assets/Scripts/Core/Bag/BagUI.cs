@@ -10,11 +10,6 @@ public class BagUI : MonoBehaviour
 
     Dictionary<Item,int> items = new Dictionary<Item,int>();
 
-
-    private void Start()
-    {
-
-    }
     public void SetItems(Dictionary<Item, int> items)
     {
         this.items = items;
@@ -39,12 +34,6 @@ public class BagUI : MonoBehaviour
         }
     }
 
-    private void AddSpriteToList(int index,Sprite sprite)
-    {       
-        var image = content.transform.GetChild(index).GetChild(0).GetChild(0);
-        image.GetComponent<Image>().sprite = sprite;
-    }
-
     private void AddItemToUI()
     {
         int index = 0;
@@ -54,10 +43,14 @@ public class BagUI : MonoBehaviour
             for (int i =1;i<=num;i++)
             {
                 AddSpriteToList(index, item.Key.GetSprite());
+                content.transform.GetChild(index).GetComponent<BagItem>().SetItem(item.Key);
                 index++;
             }
         }
     }
-
-
+    private void AddSpriteToList(int index, Sprite sprite)
+    {
+        var image = content.transform.GetChild(index).GetChild(0).GetChild(0);
+        image.GetComponent<Image>().sprite = sprite;
+    }
 }

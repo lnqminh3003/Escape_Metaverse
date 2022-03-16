@@ -18,6 +18,7 @@ public class BagController : MonoBehaviour
         bagUI.gameObject.SetActive(false);
     }
 
+    //button Display
     public void DisplayBag()
     {
         if (bagUI == null || myBag == null) return;
@@ -27,6 +28,7 @@ public class BagController : MonoBehaviour
         bagUI.SetItems(myBag.GetBagItems());
     }
 
+    //button Exit
     public void ExitBag()
     {
         if (bagUI == null || myBag == null) return;
