@@ -292,21 +292,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 578382118708134478, guid: e406dd17fa2fb454fb6f961c190fbcce,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.83971
-      objectReference: {fileID: 0}
-    - target: {fileID: 578382118708134478, guid: e406dd17fa2fb454fb6f961c190fbcce,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.83971
-      objectReference: {fileID: 0}
-    - target: {fileID: 578382118708134478, guid: e406dd17fa2fb454fb6f961c190fbcce,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.83971
-      objectReference: {fileID: 0}
-    - target: {fileID: 578382118708134478, guid: e406dd17fa2fb454fb6f961c190fbcce,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: -479
       objectReference: {fileID: 0}
@@ -27226,6 +27211,51 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1088776339}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1861979088
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1861979089}
+  - component: {fileID: 1861979090}
+  m_Layer: 0
+  m_Name: Coin Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1861979089
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1861979088}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2096585234}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1861979090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1861979088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e178889e79c762c4d93f125fd79526c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coin: {fileID: 5283960006146872901, guid: e406dd17fa2fb454fb6f961c190fbcce, type: 3}
+  placeToSpawn: {fileID: 1326975777}
 --- !u!1 &1862498896
 GameObject:
   m_ObjectHideFlags: 0
@@ -30292,6 +30322,37 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae1552748a589504f98f692aade5817d, type: 3}
+--- !u!1 &2096585233
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2096585234}
+  m_Layer: 0
+  m_Name: Game Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2096585234
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096585233}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -193.61888, y: -100.03999, z: -158.8282}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1861979089}
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2096830330
 GameObject:
   m_ObjectHideFlags: 0

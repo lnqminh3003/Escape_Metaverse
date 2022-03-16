@@ -43,6 +43,7 @@ public class EnemyProjectile : MonoBehaviour
         {
             healthPlayer.DamagePlayer(damage);
             Instantiate(effect, gameObject.transform.position, Quaternion.identity);
+            Destroy(gameObject);
         }
     }
 }
