@@ -15,7 +15,7 @@ public class CoinController : MonoBehaviour
 
     IEnumerator WaitAndSpawnCoin(Vector3 position)
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(10f);
        var tmp = Instantiate(coin, position,Quaternion.identity);
         tmp.transform.SetParent(placeToSpawn.transform);
     }
