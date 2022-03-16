@@ -1,17 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Meta.Enum;
+
 
 public class EnemyProjectile : MonoBehaviour
 {
-    [SerializeField] float speed;
-    [SerializeField] int damage;
-
+    float speed;
+    int damage;
+    GameObject effect;
     bool getDirection = false;
     HealthPlayer healthPlayer;
-    GameObject effect;
-
+   
     private void Start()
     {
         healthPlayer = FindObjectOfType<HealthPlayer>();
@@ -23,10 +22,13 @@ public class EnemyProjectile : MonoBehaviour
         Fire();
     }
 
-    public void setDirection(GameObject target, GameObject effect)
+    public void setFeature(GameObject target, GameObject effect, float speed,int damage)
     {
         transform.LookAt(target.transform);
         this.effect = effect;
+        this.speed = speed;
+        this.damage = damage;
+
         getDirection = true;
     }
 

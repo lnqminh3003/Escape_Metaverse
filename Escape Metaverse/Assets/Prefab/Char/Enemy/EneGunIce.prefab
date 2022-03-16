@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2679517104895019735}
   - component: {fileID: 2679517104895019732}
   m_Layer: 0
-  m_Name: EneGunWater
+  m_Name: EneGunIce
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44,12 +44,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2401a27ce8ba63649ac347e8fda47349, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectile: {fileID: 372743483656499300, guid: 01ab4608cb2ffc04db76774a02a56932,
-    type: 3}
+  projectileConfig: {fileID: 11400000, guid: 2adb5c546cb8f174c85a78121ac33001, type: 2}
   gun: {fileID: 2375185521413514766}
   target: {fileID: 6767323777766746940}
   seconds: 2
-  enemyType: 0
 --- !u!1001 &2679517104629085695
 PrefabInstance:
   m_ObjectHideFlags: 0

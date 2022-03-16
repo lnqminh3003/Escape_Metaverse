@@ -1,23 +1,28 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Meta.Enum;
 
 public class EnemyAttack : MonoBehaviour
 {
-    [SerializeField] EnemyProjectile projectile;
+    [SerializeField] ProjectileConfig projectileConfig;
     [SerializeField] GameObject gun;
     [SerializeField] GameObject target;
     [SerializeField] float seconds;
-    [SerializeField] EnemyType enemyType;
 
-    GameObject effectDamage;
     float countTime;
+    EnemyProjectile enemyProjectile;
+    GameObject effectDamage;
+    float speed;
+    int damage;
 
     private void Start()
     {
-        effectDamage = Resources.Load<GameObject>("EffectDamage/" + enemyType);
         countTime = seconds;
+
+        enemyProjectile = projectileConfig.GetEnemyProjectile();
+        effectDamage = projectileConfig.GetEffect();
+        speed = projectileConfig.GetSpeed();
+        damage = projectileConfig.GetDamage();
     }
     private void Update()
     {
@@ -33,8 +38,8 @@ public class EnemyAttack : MonoBehaviour
     }
     private void Fire()
     {
-        var pro = Instantiate(projectile, gun.transform.position, Quaternion.identity);
-        pro.setDirection(target ,effectDamage);
+        var pro = Instantiate(enemyProjectile, gun.transform.position, Quaternion.identity);
+        pro.setFeature(target ,effectDamage,speed, damage );
         Destroy(pro.gameObject, 10f);
     }
 

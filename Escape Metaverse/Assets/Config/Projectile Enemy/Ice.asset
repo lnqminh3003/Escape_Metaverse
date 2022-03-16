@@ -15,5 +15,5 @@ MonoBehaviour:
   effect: {fileID: 2046778863293919096, guid: baf9308d8793a1943a3c19e48e2606e3, type: 3}
   enemyProjectile: {fileID: 372743483656499300, guid: 01ab4608cb2ffc04db76774a02a56932,
     type: 3}
-  damage: 0
-  speed: 0
+  damage: 20
+  speed: 70
