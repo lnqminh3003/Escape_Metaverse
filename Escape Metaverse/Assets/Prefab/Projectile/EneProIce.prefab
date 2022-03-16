@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2904877123009110783}
   - component: {fileID: 372743483656499300}
   m_Layer: 0
-  m_Name: ProjectileEnemy
+  m_Name: EneProIce
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 372743483656499305}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.48, y: -3.23, z: -15.05}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.095055, y: 1.095055, z: 1.095055}
   m_Children: []
   m_Father: {fileID: 0}
@@ -58,10 +58,11 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ec7759dbda412f54c91c0f56dc7db415, type: 2}
+  - {fileID: 2100000, guid: 9dfff1cb1a9362044a757360b5f6cf4f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -82,6 +83,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &372743483656499307
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -123,6 +125,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d784524e8b19794e97855d7e5b30f20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
-  damage: 10
-  effectDamage: {fileID: 0}

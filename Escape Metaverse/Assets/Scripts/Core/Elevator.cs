@@ -21,22 +21,27 @@ public class Elevator : MonoBehaviour
 
     private void Update()
     {
+        ElevatorMove();
+    }
+
+    private void ElevatorMove()
+    {
         if (canMoveUp)
         {
             player.TranslatePlayer(new Vector3(0, 1, 0), speed);
-            transform.Translate(new Vector3(0, 1, 0) * speed * Time.deltaTime, Space.World);        
-            if (transform.position.y- limitUp >= Mathf.Epsilon)
+            transform.Translate(new Vector3(0, 1, 0) * speed * Time.deltaTime, Space.World);
+            if (transform.position.y - limitUp >= Mathf.Epsilon)
             {
                 canMoveUp = false;
                 GetComponent<Rigidbody>().isKinematic = true;
-               
+
             }
         }
 
-        if(canMoveDown)
+        if (canMoveDown)
         {
             transform.position = Vector3.MoveTowards(transform.position, defaultPosition, speed * Time.deltaTime);
-            if(transform.position.x == defaultPosition.x && transform.position.y == defaultPosition.y
+            if (transform.position.x == defaultPosition.x && transform.position.y == defaultPosition.y
                 && transform.position.z == defaultPosition.z)
             {
                 canMoveDown = false;

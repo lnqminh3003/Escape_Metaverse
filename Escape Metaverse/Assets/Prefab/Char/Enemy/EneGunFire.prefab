@@ -44,12 +44,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2401a27ce8ba63649ac347e8fda47349, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectile: {fileID: 372743483656499300, guid: 01ab4608cb2ffc04db76774a02a56932,
-    type: 3}
+  projectileConfig: {fileID: 11400000, guid: d4f988da950534c4791d7feea8ee0698, type: 2}
   gun: {fileID: 2810023650354226838}
   target: {fileID: 6621191009304374180}
   seconds: 2
-  enemyType: 0
 --- !u!1001 &2532959946353440103
 PrefabInstance:
   m_ObjectHideFlags: 0

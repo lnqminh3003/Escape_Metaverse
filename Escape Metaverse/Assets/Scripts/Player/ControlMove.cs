@@ -81,5 +81,13 @@ public class ControlMove : MonoBehaviour
         }
     }
 
-   
+    private void OnCollisionExit(Collision collision)
+    {
+        if(collision.gameObject.tag =="Wall")
+        {
+           
+        }
+    }
+
+
 }

@@ -4,11 +4,8 @@ using UnityEngine;
 
 public class CoinComponent : MonoBehaviour
 {
-    Coin coinControl;
-    private void Start()
-    {
-        coinControl = FindObjectOfType<Coin>();
-    }
+   [SerializeField] Coin coinControl;
+ 
     private void OnTriggerEnter(Collider other)
     {
         if(other.tag =="Player")

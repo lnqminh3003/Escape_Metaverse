@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Coin
+  m_Name: ProjectileWater
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -73,6 +73,6 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 0.81124496, b: 0, a: 1}
-    - _EmissionColor: {r: 0.3984514, g: 0.6981132, b: 0.6550252, a: 1}
+    - _Color: {r: 0, g: 0.87587667, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0.5136105, b: 0.5849056, a: 1}
   m_BuildTextureStacks: []
