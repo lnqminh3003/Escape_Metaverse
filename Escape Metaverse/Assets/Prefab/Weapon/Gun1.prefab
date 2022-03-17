@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4486841574011753061}
   - component: {fileID: 1278973073}
   m_Layer: 0
-  m_Name: Cube.004
+  m_Name: Target
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -544,6 +544,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5174baf931b9d544db0506f152eda244, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gunConfig: {fileID: 11400000, guid: 7ee064e5816c4e8439d7b6aef1551cc5, type: 2}
+  gun:
+  - {fileID: 7054846622329631686}
+  target:
+  - {fileID: 61936907350614593}
 --- !u!114 &-103714063798559890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -558,7 +563,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 52eb059e1bc34444388587cdfefe14a6, type: 3}
   typeItem: 0
-  item: {fileID: 1867351736919625586}
 --- !u!1 &2208770285275086919
 GameObject:
   m_ObjectHideFlags: 0
@@ -1712,7 +1716,7 @@ GameObject:
   - component: {fileID: 7187296465952331246}
   - component: {fileID: 544287927}
   m_Layer: 0
-  m_Name: Cube.002
+  m_Name: Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

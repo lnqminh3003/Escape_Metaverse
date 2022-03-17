@@ -13,6 +13,9 @@ MonoBehaviour:
   m_Name: gun2
   m_EditorClassIdentifier: 
   gun: {fileID: 1325863461601572106, guid: 650fade43cbda424c9e57f7764c37ba9, type: 3}
-  gunProjectile: {fileID: 1844977362709590749, guid: 1897f864efad34c4487fa93dc0ac0e8f,
+  gunProjectile: {fileID: 2156848447484489500, guid: a8e71e09dff8e6745835cb29b8bc3667,
     type: 3}
-  effect: {fileID: 0}
+  effect: {fileID: 180128, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
+  numberBullet: 10
+  damage: 0
+  speed: 100

@@ -1072,8 +1072,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.3760856, y: 1.4631726, z: 1.6006273}
-  m_Center: {x: -0.026625283, y: -0.2315867, z: 0.096997604}
+  m_Size: {x: 1.3760856, y: 1.4631723, z: 1.7121726}
+  m_Center: {x: -0.026625283, y: -0.2315867, z: 0.15277074}
 --- !u!114 &3969166101757194478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1112,9 +1112,11 @@ GameObject:
   m_Component:
   - component: {fileID: 3969166102022209658}
   - component: {fileID: 3969166102022209657}
+  - component: {fileID: 3099481733482860456}
   - component: {fileID: 3969166102022209636}
   - component: {fileID: 3969166102022209637}
-  - component: {fileID: 3099481733482860456}
+  - component: {fileID: 714902583}
+  - component: {fileID: 5569627200313122793}
   m_Layer: 9
   m_Name: Player
   m_TagString: Player
@@ -1156,6 +1158,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 3
+--- !u!65 &3099481733482860456
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3969166102022209638}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.299083, y: 8.267761, z: 5.581093}
+  m_Center: {x: -0.0015044225, y: 0.0035737937, z: 0.056996796}
 --- !u!114 &3969166102022209636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1181,20 +1196,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20c2b4a9833225941aa6175d9199ce84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 50
---- !u!65 &3099481733482860456
-BoxCollider:
+  speed: 45
+--- !u!114 &714902583
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3969166102022209638}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 4.299083, y: 8.267761, z: 5.581093}
-  m_Center: {x: -0.0015044225, y: 0.0035737937, z: 0.056996796}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a502ccbdc6ad0c43a386d3402e21f1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coin01: 0
+  coin02: 0
+--- !u!114 &5569627200313122793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3969166102022209638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1423003fd5f17b54b8a93393c961b9d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rightHand: {fileID: 3879196758380759410}
 --- !u!1 &4673635577363867680
 GameObject:
   m_ObjectHideFlags: 0

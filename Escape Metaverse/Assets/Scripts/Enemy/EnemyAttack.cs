@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyAttack : MonoBehaviour
 {
-    [SerializeField] ProjectileConfig projectileConfig;
+    [SerializeField] ProEnemyConfig projectileConfig;
     [SerializeField] GameObject gun;
     [SerializeField] GameObject target;
     [SerializeField] float seconds;

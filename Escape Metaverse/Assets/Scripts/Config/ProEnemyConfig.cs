@@ -2,8 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Projectile Config")]
-public class ProjectileConfig : ScriptableObject
+[CreateAssetMenu(menuName = "Projectile Enemy")]
+public class ProEnemyConfig : ScriptableObject
 {
     [SerializeField] GameObject effect;
     [SerializeField] EnemyProjectile enemyProjectile;
