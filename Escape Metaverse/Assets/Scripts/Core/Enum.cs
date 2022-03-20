@@ -9,4 +9,11 @@ namespace EnumMetaverse
         gun,
         bullet
     }
+
+    public enum TypeGun
+    {
+        fire,
+        ice,
+        leaf
+    }
 }

@@ -33,5 +33,10 @@ public class Gun : MonoBehaviour
             pro.SetFeature(gunConfig, target[0]);
         }
     }
+
+    public GunConfig GetGunConfig()
+    {
+        return gunConfig;
+    }
 }
 
