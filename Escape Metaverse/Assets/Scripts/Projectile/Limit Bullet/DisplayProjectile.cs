@@ -13,19 +13,23 @@ public class DisplayProjectile : MonoBehaviour
     [SerializeField] TextMeshProUGUI numberProjectile;
 
     ProjectileController projectileController;
+    bool first;
 
     private void Start()
     {
         projectileController = GetComponent<ProjectileController>();
+        first = true;
     }
 
     private void Update()
     {
+        if (first) return;
         numberProjectile.text = projectileController.GetNumberCurrentProjectile().ToString();
     }
 
     public void ChangeGun(Sprite spriteGun)
     {
         gunSprite.GetComponent<Image>().sprite = spriteGun;
+        first = false;
     }
 }
