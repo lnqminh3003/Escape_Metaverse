@@ -47,7 +47,7 @@ MonoBehaviour:
   projectileConfig: {fileID: 11400000, guid: d4f988da950534c4791d7feea8ee0698, type: 2}
   gun: {fileID: 2810023650354226838}
   target: {fileID: 6621191009304374180}
-  seconds: 2
+  seconds: 1.9
 --- !u!1001 &2532959946353440103
 PrefabInstance:
   m_ObjectHideFlags: 0

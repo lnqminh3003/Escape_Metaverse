@@ -18,6 +18,22 @@ public class BagController : MonoBehaviour
         bagUI.gameObject.SetActive(false);
     }
 
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.B))
+        {
+            if(!isBagActive)
+            {
+                DisplayBag();
+            }
+            else
+            {
+                ExitBag();
+            }
+        }
+    }
+
+    //button Display
     public void DisplayBag()
     {
         if (bagUI == null || myBag == null) return;
@@ -27,6 +43,7 @@ public class BagController : MonoBehaviour
         bagUI.SetItems(myBag.GetBagItems());
     }
 
+    //button Exit
     public void ExitBag()
     {
         if (bagUI == null || myBag == null) return;

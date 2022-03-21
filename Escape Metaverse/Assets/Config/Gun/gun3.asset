@@ -12,7 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39723215989fc14498cdf80ad5bb0293, type: 3}
   m_Name: gun3
   m_EditorClassIdentifier: 
-  gun: {fileID: 1408479350709628421, guid: afaab6a8a7dffcd41a6515b06f26f8f2, type: 3}
-  gunProjectile: {fileID: 4088247156420919635, guid: b6d0570613da9d5448f4175dd7c69374,
+  gun: {fileID: 7918736492286258362, guid: afaab6a8a7dffcd41a6515b06f26f8f2, type: 3}
+  gunProjectile: {fileID: 4325453127882848600, guid: fce631724077cbf4090624d38405903c,
     type: 3}
-  effect: {fileID: 0}
+  effect: {fileID: 180128, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
+  numberEachReset: 20
+  damage: 0
+  speed: 100
+  typeGun: 2
