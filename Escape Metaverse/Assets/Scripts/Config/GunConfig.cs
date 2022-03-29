@@ -6,13 +6,22 @@ using EnumMetaverse;
 [CreateAssetMenu(menuName ="Gun Config")]
 public class GunConfig : ScriptableObject
 {
+    [SerializeField] string nameGun;
     [SerializeField] Gun gun;
     [SerializeField] GunProjectile gunProjectile;
     [SerializeField] GameObject effect;
     [SerializeField] int numberEachReset;
     [SerializeField] int damage;
     [SerializeField] float speed;
+    [SerializeField] int maxNumberSupply;
+    [SerializeField] int price;
     [SerializeField] TypeGun typeGun;
+
+
+    public string GetName()
+    {
+        return nameGun;
+    }
 
     public Gun GetGun()
     {
@@ -50,5 +59,15 @@ public class GunConfig : ScriptableObject
     public TypeGun GetTypeGun()
     {
         return typeGun;
+    }
+
+    public int GetMaxSupply()
+    {
+        return maxNumberSupply;
+    }
+
+    public int GetPrice()
+    {
+        return price;
     }
 }

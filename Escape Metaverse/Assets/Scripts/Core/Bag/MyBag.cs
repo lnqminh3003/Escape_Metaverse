@@ -5,12 +5,7 @@ using UnityEngine;
 public class MyBag : MonoBehaviour
 {
     Dictionary<Item, int> bagItems = new Dictionary<Item, int>();
-    [SerializeField] Item item;
 
-    private void Start()
-    {
-        AddItemToBag(item, 2);
-    }
     public Dictionary<Item,int> GetBagItems()
     {
         return bagItems;

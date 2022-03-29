@@ -3,16 +3,31 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ShopController : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
+{ 
+    ShopUI shopUI;
+    Shop shop;
+
+    private void Start()
     {
-        
+        shopUI= FindObjectOfType<ShopUI>();
+        shop = FindObjectOfType<Shop>();
+
+        shopUI.gameObject.SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update()
+    //Button display
+    public void DisplayShopUI()
     {
-        
+        if (shopUI == null) return;
+        shopUI.gameObject.SetActive(true);
+
+        shopUI.SetData(shop.GetListItemShop());
+    }
+
+    //Button Exit
+    public void ExitShop()
+    {
+        shopUI.DestroyItem();
+        shopUI.gameObject.SetActive(false);
     }
 }
