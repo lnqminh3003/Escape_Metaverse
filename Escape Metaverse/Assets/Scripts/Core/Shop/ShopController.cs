@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class ShopController : MonoBehaviour
 { 
-    ShopUI shopUI;
+   [SerializeField] ShopUI shopUI;
     Shop shop;
 
     private void Start()
     {
-        shopUI= FindObjectOfType<ShopUI>();
         shop = FindObjectOfType<Shop>();
-
-        shopUI.gameObject.SetActive(false);
     }
 
     //Button display

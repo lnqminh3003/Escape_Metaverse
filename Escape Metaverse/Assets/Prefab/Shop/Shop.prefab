@@ -214,6 +214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9fa961a89d15554594fffdb7bc21bac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shopUI: {fileID: 5013024544237232266}
 --- !u!1 &5013024543332143442
 GameObject:
   m_ObjectHideFlags: 0
@@ -1571,7 +1572,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 5013024543227339418}
         m_TargetAssemblyTypeName: ShopController, Assembly-CSharp
-        m_MethodName: DisplayShopUI
+        m_MethodName: ExitShop
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
