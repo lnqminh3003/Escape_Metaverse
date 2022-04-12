@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class CoinController : MonoBehaviour
 {
-    [SerializeField] GameObject coin;
+    [SerializeField] GameObject MCoin;
+    [SerializeField] GameObject VCoin;
     [SerializeField] GameObject placeToSpawn;
 
 
@@ -16,7 +17,7 @@ public class CoinController : MonoBehaviour
     IEnumerator WaitAndSpawnCoin(Vector3 position)
     {
         yield return new WaitForSeconds(10f);
-       var tmp = Instantiate(coin, position,Quaternion.identity);
+       var tmp = Instantiate(MCoin, position,Quaternion.identity);
         tmp.transform.SetParent(placeToSpawn.transform);
     }
 

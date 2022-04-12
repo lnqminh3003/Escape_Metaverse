@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 578382118708134478}
   m_Layer: 0
-  m_Name: Coin
+  m_Name: MCoin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31,25 +31,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &6025617820583148043
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6157860307935504585}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 794ed5c4bd6ad36409b64f5c8970dcaf, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &7199444245069520754
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62,6 +43,11 @@ PrefabInstance:
       propertyPath: coin
       value: 
       objectReference: {fileID: 5283960006146872901}
+    - target: {fileID: 2253882083289114907, guid: 16edb6e29726c004ea9917ba03e2c925,
+        type: 3}
+      propertyPath: typeCoin
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3935175439653304250, guid: 16edb6e29726c004ea9917ba03e2c925,
         type: 3}
       propertyPath: m_RootOrder
@@ -124,12 +110,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16edb6e29726c004ea9917ba03e2c925, type: 3}
---- !u!1 &6157860307935504585 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3935175439653304251, guid: 16edb6e29726c004ea9917ba03e2c925,
-    type: 3}
-  m_PrefabInstance: {fileID: 7199444245069520754}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6157860307935504584 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3935175439653304250, guid: 16edb6e29726c004ea9917ba03e2c925,
