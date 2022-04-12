@@ -8,3 +8,8 @@ https://able-wrench-eb0.notion.site/Escape-Metaverse-c9e0e8c497e94046a945f5790f7
 ### Shop 🛒
 
 ![Shop](https://user-images.githubusercontent.com/101281380/162970630-54c71f56-1b61-4e91-9a12-3b31442e6a95.png)
+
+
+### Bag
+
+![Bag](https://user-images.githubusercontent.com/101281380/162970916-7ce5ce25-904e-4647-a497-b07da6269889.png)
