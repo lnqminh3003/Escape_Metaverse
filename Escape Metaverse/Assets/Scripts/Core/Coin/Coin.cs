@@ -5,33 +5,20 @@ using EnumMetaverse;
 
 public class Coin : MonoBehaviour
 {
-    [SerializeField] GameObject coin;
-    [SerializeField] CoinConfig coinFig;
-    [SerializeField] TypeCoin typeCoin;
+    public GameObject coin;
+    public CoinConfig coinFig;
 
-    bool checkCollision;
-    Vector3 defaultPosition;
+    public bool checkCollision;
+    public Vector3 defaultPosition;
    
     private void Start()
     {
         defaultPosition = coin.transform.position;
         checkCollision = true;
     }
-    public void SendSignal()
+
+    public virtual void SendSignal()
     {
-        if (checkCollision)
-        {
-            checkCollision = !checkCollision;
-            if(typeCoin == TypeCoin.MCoin)
-            {
-                GameObject.FindWithTag("Player").GetComponent<MyWallet>().AddMCoin(coinFig.amountMCoinPerCoin);
-            }
-            else
-            {
-                GameObject.FindWithTag("Player").GetComponent<MyWallet>().AddVCoin(coinFig.amountVCoinPerCoin);
-            }
-            FindObjectOfType<CoinController>().SendSignalToCoinController(defaultPosition);
-            Destroy(coin);
-        }
+
     }
 }

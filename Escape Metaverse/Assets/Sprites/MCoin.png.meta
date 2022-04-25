@@ -1,0 +1,1845 @@
+fileFormatVersion: 2
+guid: b8c2054d5fd0bee48a1d28f20a961b97
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: GameCoin-GoldRedCoin-A_0
+  - first:
+      213: 21300002
+    second: GameCoin-GoldRedCoin-A_1
+  - first:
+      213: 21300004
+    second: GameCoin-GoldRedCoin-A_2
+  - first:
+      213: 21300006
+    second: GameCoin-GoldRedCoin-A_3
+  - first:
+      213: 21300008
+    second: GameCoin-GoldRedCoin-A_4
+  - first:
+      213: 21300010
+    second: GameCoin-GoldRedCoin-A_5
+  - first:
+      213: 21300012
+    second: GameCoin-GoldRedCoin-A_6
+  - first:
+      213: 21300014
+    second: GameCoin-GoldRedCoin-A_7
+  - first:
+      213: 21300016
+    second: GameCoin-GoldRedCoin-A_8
+  - first:
+      213: 21300018
+    second: GameCoin-GoldRedCoin-A_9
+  - first:
+      213: 21300020
+    second: GameCoin-GoldRedCoin-A_10
+  - first:
+      213: 21300022
+    second: GameCoin-GoldRedCoin-A_11
+  - first:
+      213: 21300024
+    second: GameCoin-GoldRedCoin-A_12
+  - first:
+      213: 21300026
+    second: GameCoin-GoldRedCoin-A_13
+  - first:
+      213: 21300028
+    second: GameCoin-GoldRedCoin-A_14
+  - first:
+      213: 21300030
+    second: GameCoin-GoldRedCoin-A_15
+  - first:
+      213: 21300032
+    second: GameCoin-GoldRedCoin-A_16
+  - first:
+      213: 21300034
+    second: GameCoin-GoldRedCoin-A_17
+  - first:
+      213: 21300036
+    second: GameCoin-GoldRedCoin-A_18
+  - first:
+      213: 21300038
+    second: GameCoin-GoldRedCoin-A_19
+  - first:
+      213: 21300040
+    second: GameCoin-GoldRedCoin-A_20
+  - first:
+      213: 21300042
+    second: GameCoin-GoldRedCoin-A_21
+  - first:
+      213: 21300044
+    second: GameCoin-GoldRedCoin-A_22
+  - first:
+      213: 21300046
+    second: GameCoin-GoldRedCoin-A_23
+  - first:
+      213: 21300048
+    second: GameCoin-GoldRedCoin-A_24
+  - first:
+      213: 21300050
+    second: GameCoin-GoldRedCoin-A_25
+  - first:
+      213: 21300052
+    second: GameCoin-GoldRedCoin-A_26
+  - first:
+      213: 21300054
+    second: GameCoin-GoldRedCoin-A_27
+  - first:
+      213: 21300056
+    second: GameCoin-GoldRedCoin-A_28
+  - first:
+      213: 21300058
+    second: GameCoin-GoldRedCoin-A_29
+  - first:
+      213: 21300060
+    second: GameCoin-GoldRedCoin-A_30
+  - first:
+      213: 21300062
+    second: GameCoin-GoldRedCoin-A_31
+  - first:
+      213: 21300064
+    second: GameCoin-GoldRedCoin-A_32
+  - first:
+      213: 21300066
+    second: GameCoin-GoldRedCoin-A_33
+  - first:
+      213: 21300068
+    second: GameCoin-GoldRedCoin-A_34
+  - first:
+      213: 21300070
+    second: GameCoin-GoldRedCoin-A_35
+  - first:
+      213: 21300072
+    second: GameCoin-GoldRedCoin-A_36
+  - first:
+      213: 21300074
+    second: GameCoin-GoldRedCoin-A_37
+  - first:
+      213: 21300076
+    second: GameCoin-GoldRedCoin-A_38
+  - first:
+      213: 21300078
+    second: GameCoin-GoldRedCoin-A_39
+  - first:
+      213: 21300080
+    second: GameCoin-GoldRedCoin-A_40
+  - first:
+      213: 21300082
+    second: GameCoin-GoldRedCoin-A_41
+  - first:
+      213: 21300084
+    second: GameCoin-GoldRedCoin-A_42
+  - first:
+      213: 21300086
+    second: GameCoin-GoldRedCoin-A_43
+  - first:
+      213: 21300088
+    second: GameCoin-GoldRedCoin-A_44
+  - first:
+      213: 21300090
+    second: GameCoin-GoldRedCoin-A_45
+  - first:
+      213: 21300092
+    second: GameCoin-GoldRedCoin-A_46
+  - first:
+      213: 21300094
+    second: GameCoin-GoldRedCoin-A_47
+  - first:
+      213: 21300096
+    second: GameCoin-GoldRedCoin-A_48
+  - first:
+      213: 21300098
+    second: GameCoin-GoldRedCoin-A_49
+  - first:
+      213: 21300100
+    second: GameCoin-GoldRedCoin-A_50
+  - first:
+      213: 21300102
+    second: GameCoin-GoldRedCoin-A_51
+  - first:
+      213: 21300104
+    second: GameCoin-GoldRedCoin-A_52
+  - first:
+      213: 21300106
+    second: GameCoin-GoldRedCoin-A_53
+  - first:
+      213: 21300108
+    second: GameCoin-GoldRedCoin-A_54
+  - first:
+      213: 21300110
+    second: GameCoin-GoldRedCoin-A_55
+  - first:
+      213: 21300112
+    second: GameCoin-GoldRedCoin-A_56
+  - first:
+      213: 21300114
+    second: GameCoin-GoldRedCoin-A_57
+  - first:
+      213: 21300116
+    second: GameCoin-GoldRedCoin-A_58
+  - first:
+      213: 21300118
+    second: GameCoin-GoldRedCoin-A_59
+  - first:
+      213: 21300120
+    second: GameCoin-GoldRedCoin-A_60
+  - first:
+      213: 21300122
+    second: GameCoin-GoldRedCoin-A_61
+  - first:
+      213: 21300124
+    second: GameCoin-GoldRedCoin-A_62
+  - first:
+      213: 4190478450601516446
+    second: GameCoin-GoldRedCoin-A_0
+  - first:
+      213: -8578039700451977135
+    second: GameCoin-GoldRedCoin-A_1
+  - first:
+      213: -2271548154507760604
+    second: GameCoin-GoldRedCoin-A_2
+  - first:
+      213: -6425681094790657730
+    second: GameCoin-GoldRedCoin-A_3
+  - first:
+      213: -2473209800241736719
+    second: GameCoin-GoldRedCoin-A_4
+  - first:
+      213: 287712026527871580
+    second: GameCoin-GoldRedCoin-A_5
+  - first:
+      213: 6781273344286247110
+    second: GameCoin-GoldRedCoin-A_6
+  - first:
+      213: 5609589591603463285
+    second: GameCoin-GoldRedCoin-A_7
+  - first:
+      213: 1571513581372273374
+    second: GameCoin-GoldRedCoin-A_8
+  - first:
+      213: -1827796925755175806
+    second: GameCoin-GoldRedCoin-A_9
+  - first:
+      213: -2278437232081589765
+    second: GameCoin-GoldRedCoin-A_10
+  - first:
+      213: -8863091622100466224
+    second: GameCoin-GoldRedCoin-A_11
+  - first:
+      213: 1873261250799198035
+    second: GameCoin-GoldRedCoin-A_12
+  - first:
+      213: 458431428966165806
+    second: GameCoin-GoldRedCoin-A_13
+  - first:
+      213: -4923001377751009130
+    second: GameCoin-GoldRedCoin-A_14
+  - first:
+      213: -1478245325511385236
+    second: GameCoin-GoldRedCoin-A_15
+  - first:
+      213: 890930591533881173
+    second: GameCoin-GoldRedCoin-A_16
+  - first:
+      213: -2351622181218324850
+    second: GameCoin-GoldRedCoin-A_17
+  - first:
+      213: -1266280261697370518
+    second: GameCoin-GoldRedCoin-A_18
+  - first:
+      213: 5401113376097392283
+    second: GameCoin-GoldRedCoin-A_19
+  - first:
+      213: -4689901059613346140
+    second: GameCoin-GoldRedCoin-A_20
+  - first:
+      213: -2758183997611351007
+    second: GameCoin-GoldRedCoin-A_21
+  - first:
+      213: 6056693872020009571
+    second: GameCoin-GoldRedCoin-A_22
+  - first:
+      213: 4481607808948843933
+    second: GameCoin-GoldRedCoin-A_23
+  - first:
+      213: -8145645045395754433
+    second: GameCoin-GoldRedCoin-A_24
+  - first:
+      213: -8838490041595438569
+    second: GameCoin-GoldRedCoin-A_25
+  - first:
+      213: -8923110900044656292
+    second: GameCoin-GoldRedCoin-A_26
+  - first:
+      213: 6235558617239976954
+    second: GameCoin-GoldRedCoin-A_27
+  - first:
+      213: -7070069173016535537
+    second: GameCoin-GoldRedCoin-A_28
+  - first:
+      213: -3965491698443578392
+    second: GameCoin-GoldRedCoin-A_29
+  - first:
+      213: 583622973560324874
+    second: GameCoin-GoldRedCoin-A_30
+  - first:
+      213: 2777358954515575674
+    second: GameCoin-GoldRedCoin-A_31
+  - first:
+      213: 2653070834280365978
+    second: GameCoin-GoldRedCoin-A_32
+  - first:
+      213: -5140298807829817030
+    second: GameCoin-GoldRedCoin-A_33
+  - first:
+      213: -1102654758163457384
+    second: GameCoin-GoldRedCoin-A_34
+  - first:
+      213: 8285611104946015053
+    second: GameCoin-GoldRedCoin-A_35
+  - first:
+      213: 4648508657976780597
+    second: GameCoin-GoldRedCoin-A_36
+  - first:
+      213: 2638690842231097685
+    second: GameCoin-GoldRedCoin-A_37
+  - first:
+      213: 5700491331525175658
+    second: GameCoin-GoldRedCoin-A_38
+  - first:
+      213: 356031849838803154
+    second: GameCoin-GoldRedCoin-A_39
+  - first:
+      213: -2209425090833687966
+    second: GameCoin-GoldRedCoin-A_40
+  - first:
+      213: 1684580773966092237
+    second: GameCoin-GoldRedCoin-A_41
+  - first:
+      213: 4426900873608150469
+    second: GameCoin-GoldRedCoin-A_42
+  - first:
+      213: 6991432789898382548
+    second: GameCoin-GoldRedCoin-A_43
+  - first:
+      213: -966441445646918240
+    second: GameCoin-GoldRedCoin-A_44
+  - first:
+      213: -20048016157833686
+    second: GameCoin-GoldRedCoin-A_45
+  - first:
+      213: -7114278447293278900
+    second: GameCoin-GoldRedCoin-A_46
+  - first:
+      213: -5686216884395831425
+    second: GameCoin-GoldRedCoin-A_47
+  - first:
+      213: -6467985163744626236
+    second: GameCoin-GoldRedCoin-A_48
+  - first:
+      213: -1653362949382910254
+    second: GameCoin-GoldRedCoin-A_49
+  - first:
+      213: -5941742228157855651
+    second: GameCoin-GoldRedCoin-A_50
+  - first:
+      213: 3576945135305628688
+    second: GameCoin-GoldRedCoin-A_51
+  - first:
+      213: -737038125798094864
+    second: GameCoin-GoldRedCoin-A_52
+  - first:
+      213: 6213870006824476818
+    second: GameCoin-GoldRedCoin-A_53
+  - first:
+      213: 8171163251267524944
+    second: GameCoin-GoldRedCoin-A_54
+  - first:
+      213: 5557040187031874474
+    second: GameCoin-GoldRedCoin-A_55
+  - first:
+      213: 774965549012615866
+    second: GameCoin-GoldRedCoin-A_56
+  - first:
+      213: -4910296865786401422
+    second: GameCoin-GoldRedCoin-A_57
+  - first:
+      213: -5727423494948674652
+    second: GameCoin-GoldRedCoin-A_58
+  - first:
+      213: -2690669887938238341
+    second: GameCoin-GoldRedCoin-A_59
+  - first:
+      213: -7884286507194717490
+    second: GameCoin-GoldRedCoin-A_60
+  - first:
+      213: -8226076588769294139
+    second: GameCoin-GoldRedCoin-A_61
+  - first:
+      213: 5523817085662313497
+    second: GameCoin-GoldRedCoin-A_62
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3722
+        width: 472
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d580fd2f1972a30800000000000000
+      internalID: 4190478450601516446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_1
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 3722
+        width: 474
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1589c51475ea4f880800000000000000
+      internalID: -8578039700451977135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_2
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 3722
+        width: 474
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42cee581df6d970e0800000000000000
+      internalID: -2271548154507760604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_3
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 3722
+        width: 471
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e394f09c61563d6a0800000000000000
+      internalID: -6425681094790657730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_4
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 3722
+        width: 474
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f393915ac46dadd0800000000000000
+      internalID: -2473209800241736719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_5
+      rect:
+        serializedVersion: 2
+        x: 2683
+        y: 3722
+        width: 474
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c523dc250982ef300800000000000000
+      internalID: 287712026527871580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_6
+      rect:
+        serializedVersion: 2
+        x: 3188
+        y: 3722
+        width: 474
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8c10b8d2ceb1e50800000000000000
+      internalID: 6781273344286247110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_7
+      rect:
+        serializedVersion: 2
+        x: 3724
+        y: 3722
+        width: 472
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574c04f330449dd40800000000000000
+      internalID: 5609589591603463285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3188
+        width: 472
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed27569a6432fc510800000000000000
+      internalID: 1571513581372273374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_9
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 3188
+        width: 474
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ccfce416c52a6e0800000000000000
+      internalID: -1827796925755175806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_10
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 3188
+        width: 474
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9a0cab86d5160e0800000000000000
+      internalID: -2278437232081589765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_11
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 3188
+        width: 471
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d506fcd029fff480800000000000000
+      internalID: -8863091622100466224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_12
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 3180
+        width: 474
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35fd361ce292ff910800000000000000
+      internalID: 1873261250799198035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_13
+      rect:
+        serializedVersion: 2
+        x: 2683
+        y: 3188
+        width: 474
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d276da4fcac5600800000000000000
+      internalID: 458431428966165806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_14
+      rect:
+        serializedVersion: 2
+        x: 3188
+        y: 3188
+        width: 474
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6987462845cfdabb0800000000000000
+      internalID: -4923001377751009130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_15
+      rect:
+        serializedVersion: 2
+        x: 3724
+        y: 3190
+        width: 472
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f130265b73c7be0800000000000000
+      internalID: -1478245325511385236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2655
+        width: 472
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557d7e317a83d5c00800000000000000
+      internalID: 890930591533881173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_17
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 2655
+        width: 474
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e6d8ae51c5d5fd0800000000000000
+      internalID: -2351622181218324850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_18
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 2655
+        width: 474
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66807f9fc44d6ee0800000000000000
+      internalID: -1266280261697370518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_19
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 2655
+        width: 471
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9655edcffb94fa40800000000000000
+      internalID: 5401113376097392283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_20
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2640
+        width: 472
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6b40e95df1aeeb0800000000000000
+      internalID: -4689901059613346140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_21
+      rect:
+        serializedVersion: 2
+        x: 2698
+        y: 2669
+        width: 445
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12465358446f8b9d0800000000000000
+      internalID: -2758183997611351007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_22
+      rect:
+        serializedVersion: 2
+        x: 3203
+        y: 2669
+        width: 445
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362b903acf2bd0450800000000000000
+      internalID: 6056693872020009571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_23
+      rect:
+        serializedVersion: 2
+        x: 3738
+        y: 2673
+        width: 446
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d953303ce8ed13e30800000000000000
+      internalID: 4481607808948843933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_24
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2135
+        width: 446
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32f3ca1dfad4fe80800000000000000
+      internalID: -8145645045395754433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_25
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 2135
+        width: 443
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a50efa220675580800000000000000
+      internalID: -8838490041595438569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_26
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 2135
+        width: 443
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c511c6fb9edba2480800000000000000
+      internalID: -8923110900044656292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_27
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 2135
+        width: 443
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afbf6b46687298650800000000000000
+      internalID: 6235558617239976954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_28
+      rect:
+        serializedVersion: 2
+        x: 2137
+        y: 2141
+        width: 443
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ed8e4cb8112ed90800000000000000
+      internalID: -7070069173016535537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_29
+      rect:
+        serializedVersion: 2
+        x: 2698
+        y: 2135
+        width: 445
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e392827f4eb7f8c0800000000000000
+      internalID: -3965491698443578392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_30
+      rect:
+        serializedVersion: 2
+        x: 3203
+        y: 2135
+        width: 445
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0302d59002791800800000000000000
+      internalID: 583622973560324874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_31
+      rect:
+        serializedVersion: 2
+        x: 3738
+        y: 2141
+        width: 446
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73b6a901492b8620800000000000000
+      internalID: 2777358954515575674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_32
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1601
+        width: 446
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ffa310ed991d420800000000000000
+      internalID: 2653070834280365978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_33
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 1601
+        width: 443
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3990fff77df9a8b0800000000000000
+      internalID: -5140298807829817030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_34
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 1601
+        width: 443
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ad5cde65592b0f0800000000000000
+      internalID: -1102654758163457384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_35
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 1601
+        width: 443
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4bc651a6676cf270800000000000000
+      internalID: 8285611104946015053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_36
+      rect:
+        serializedVersion: 2
+        x: 2104
+        y: 1628
+        width: 445
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537a80edef1d28040800000000000000
+      internalID: 4648508657976780597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_37
+      rect:
+        serializedVersion: 2
+        x: 2698
+        y: 1601
+        width: 445
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559c24337538e9420800000000000000
+      internalID: 2638690842231097685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_38
+      rect:
+        serializedVersion: 2
+        x: 3203
+        y: 1601
+        width: 445
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6960ccd9a63c1f40800000000000000
+      internalID: 5700491331525175658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_39
+      rect:
+        serializedVersion: 2
+        x: 3738
+        y: 1610
+        width: 446
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8fd52c411e0f400800000000000000
+      internalID: 356031849838803154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_40
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1066
+        width: 446
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ad50ff59b8651e0800000000000000
+      internalID: -2209425090833687966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_41
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 1066
+        width: 443
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc793b3e945d06710800000000000000
+      internalID: 1684580773966092237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_42
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 1066
+        width: 443
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cdb74bc3e28f6d30800000000000000
+      internalID: 4426900873608150469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_43
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 1066
+        width: 443
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc49e8841f860160800000000000000
+      internalID: 6991432789898382548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_44
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 1092
+        width: 445
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad100820a28692f0800000000000000
+      internalID: -966441445646918240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_45
+      rect:
+        serializedVersion: 2
+        x: 2698
+        y: 1066
+        width: 445
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26067e7f66c8bff0800000000000000
+      internalID: -20048016157833686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_46
+      rect:
+        serializedVersion: 2
+        x: 3203
+        y: 1066
+        width: 445
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45dddbf171054d90800000000000000
+      internalID: -7114278447293278900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_47
+      rect:
+        serializedVersion: 2
+        x: 3738
+        y: 1076
+        width: 446
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f02c9dedf7611b0800000000000000
+      internalID: -5686216884395831425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_48
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 532
+        width: 446
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c9318e23c91d36a0800000000000000
+      internalID: -6467985163744626236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_49
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 532
+        width: 445
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de4d3d48231e09e0800000000000000
+      internalID: -1653362949382910254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_50
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 532
+        width: 443
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5886b79ce0ba8da0800000000000000
+      internalID: -5941742228157855651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_51
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 532
+        width: 445
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c14fa26acd3a130800000000000000
+      internalID: 3576945135305628688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_52
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 589
+        width: 445
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f782e5cab385c5f0800000000000000
+      internalID: -737038125798094864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_53
+      rect:
+        serializedVersion: 2
+        x: 2698
+        y: 532
+        width: 445
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2902a3549d91c3650800000000000000
+      internalID: 6213870006824476818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_54
+      rect:
+        serializedVersion: 2
+        x: 3203
+        y: 532
+        width: 445
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059d6813fadc56170800000000000000
+      internalID: 8171163251267524944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_55
+      rect:
+        serializedVersion: 2
+        x: 3738
+        y: 544
+        width: 446
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aabea9e8b929e1d40800000000000000
+      internalID: 5557040187031874474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_56
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 0
+        width: 446
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab200169f0b31ca00800000000000000
+      internalID: 774965549012615866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_57
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 0
+        width: 445
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d6615340f1bdbb0800000000000000
+      internalID: -4910296865786401422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_58
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 0
+        width: 443
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3ab513daa1480b0800000000000000
+      internalID: -5727423494948674652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_59
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 0
+        width: 447
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78e9912ef1d8aad0800000000000000
+      internalID: -2690669887938238341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_60
+      rect:
+        serializedVersion: 2
+        x: 2143
+        y: 0
+        width: 445
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecae047c133659290800000000000000
+      internalID: -7884286507194717490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_61
+      rect:
+        serializedVersion: 2
+        x: 2698
+        y: 0
+        width: 445
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8cf371dea17dd80800000000000000
+      internalID: -8226076588769294139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameCoin-GoldRedCoin-A_62
+      rect:
+        serializedVersion: 2
+        x: 3203
+        y: 0
+        width: 445
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91cb22b7f5a88ac40800000000000000
+      internalID: 5523817085662313497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 47066405c551a594794da5836887ed54
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

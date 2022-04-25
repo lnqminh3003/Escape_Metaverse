@@ -5,14 +5,14 @@ using EnumMetaverse;
 
 public class CoinComponent : MonoBehaviour
 {
-   [SerializeField] Coin coinControl;
+    [SerializeField] Coin coin;
+    [SerializeField] TypeCoin typeCoin;
 
- 
     private void OnTriggerEnter(Collider other)
     {
         if(other.tag =="Player")
         {
-            coinControl.SendSignal();
+            coin.SendSignal();
         }
     }
 }
