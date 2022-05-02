@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class ShopUI : MonoBehaviour
 {
     [SerializeField] GameObject list;
-    [SerializeField] ShopItem templateShopItem;
+    [SerializeField] TextMeshProUGUI messageText; 
 
     public void SetData(List<ItemShop> listItem)
     {
@@ -15,21 +16,18 @@ public class ShopUI : MonoBehaviour
 
     public void RefreshShopUI(List<ItemShop> listItem)
     {
+        int i = 0;
         foreach (var item in listItem)
         {
-            var shopItem = Instantiate(templateShopItem);
-            shopItem.transform.SetParent(list.transform);
-
-            shopItem.DisplayItem(item);
+            var child = list.transform.GetChild(i);
+            i++;
+            child.GetComponent<ShopItem>().DisplayItem(item);
         }
     }
 
-    public void DestroyItem()
+    public void DisplayMessage(string message)
     {
-        for (int i =0;i< list.gameObject.transform.childCount; i++)
-        {
-            Destroy(list.transform.GetChild(i).gameObject); 
-        }
+        messageText.text = message;
     }
 }
 

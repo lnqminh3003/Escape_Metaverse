@@ -12,7 +12,7 @@ public class MCoin : Coin
         if (checkCollision)
         {
             checkCollision = !checkCollision;
-            GameObject.FindWithTag("Player").GetComponent<MyWallet>().AddMCoin(coinFig.amountVCoinPerCoin);
+            GameObject.FindWithTag("Player").GetComponent<MyWallet>().AddMCoin(coinFig.amountMCoinPerCoin);
             FindObjectOfType<CoinController>().SendSignalToCoinController(defaultPosition, typeCoin);
             Destroy(coin);
         }

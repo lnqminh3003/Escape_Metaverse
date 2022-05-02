@@ -6,16 +6,13 @@ public class MyWallet : MonoBehaviour
 {
     //MCoin -> buy Weapon
     //VCoin -> buy Material
-    [SerializeField] int MCoin;
-    [SerializeField] int VCoin;
+    public int MCoin;
+    public int VCoin;
 
     DisplayCoin coinController;
 
     private void Start()
     {
-        MCoin = 0;
-        VCoin = 0;
-
         coinController = FindObjectOfType<DisplayCoin>();
         coinController.DisplayCoinToUI(MCoin, VCoin);
     }
@@ -29,6 +26,17 @@ public class MyWallet : MonoBehaviour
     public void AddVCoin(int point)
     {
         VCoin += point;
+        coinController.DisplayCoinToUI(MCoin, VCoin);
+    }
+
+    public void SpendMCoin(int amount)
+    {
+        MCoin -= amount;
+        coinController.DisplayCoinToUI(MCoin, VCoin);
+    }
+    public void SpendVCoin(int amount)
+    {
+        VCoin -= amount;
         coinController.DisplayCoinToUI(MCoin, VCoin);
     }
 

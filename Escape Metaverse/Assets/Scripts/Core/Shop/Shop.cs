@@ -8,10 +8,12 @@ public class Shop : MonoBehaviour
 
     List<ItemShop> listItem = new List<ItemShop> ();
     MyBag bag;
+    MyWallet wallet;
 
     private void Start()
     {
         bag = FindObjectOfType<MyBag> ();
+        wallet = FindObjectOfType<MyWallet>();
         SetItemToShop();
     }
 
@@ -38,7 +40,6 @@ public class Shop : MonoBehaviour
             if (itemShop.count < itemShop.maxSupply)
             {
                 itemShop.count++;
-                FindObjectOfType<ShopUI>().DestroyItem();
                 FindObjectOfType<ShopUI>().RefreshShopUI(listItem);
             }
         }
@@ -51,7 +52,6 @@ public class Shop : MonoBehaviour
             if (itemShop.count >0)
             {
                 itemShop.count--;
-                FindObjectOfType<ShopUI>().DestroyItem();
                 FindObjectOfType<ShopUI>().RefreshShopUI(listItem);
             }
         }
@@ -59,13 +59,25 @@ public class Shop : MonoBehaviour
 
     public void BuyButton(ItemShop itemShop)
     {
+        if (itemShop.price > wallet.MCoin)
+        {
+            FindObjectOfType<ShopUI>().DisplayMessage("Don't enough MCoin");
+            return;
+        }
+        if(itemShop.count <=0)
+        {
+            FindObjectOfType<ShopUI>().DisplayMessage("Min buy 1 item");
+            return;
+        }
         if(itemShop.count >0)
         {
             bag.AddItemToBag(itemShop.item, itemShop.count);
             itemShop.maxSupply -= itemShop.count;
+            wallet.SpendMCoin(itemShop.price);
             itemShop.count =0 ;
-            FindObjectOfType<ShopUI>().DestroyItem();
             FindObjectOfType<ShopUI>().RefreshShopUI(listItem);
+            FindObjectOfType<ShopUI>().DisplayMessage("Success");
         }
     }
 }
+

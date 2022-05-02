@@ -6,7 +6,6 @@ using EnumMetaverse;
 public class CoinComponent : MonoBehaviour
 {
     [SerializeField] Coin coin;
-    [SerializeField] TypeCoin typeCoin;
 
     private void OnTriggerEnter(Collider other)
     {
