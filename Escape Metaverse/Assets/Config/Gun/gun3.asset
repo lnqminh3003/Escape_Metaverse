@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39723215989fc14498cdf80ad5bb0293, type: 3}
   m_Name: gun3
   m_EditorClassIdentifier: 
+  nameGun: Leaf Gun
   gun: {fileID: 7918736492286258362, guid: afaab6a8a7dffcd41a6515b06f26f8f2, type: 3}
   gunProjectile: {fileID: 4325453127882848600, guid: fce631724077cbf4090624d38405903c,
     type: 3}
@@ -19,4 +20,6 @@ MonoBehaviour:
   numberEachReset: 20
   damage: 0
   speed: 100
+  maxNumberSupply: 1
+  price: 50
   typeGun: 2

@@ -1,28 +1,24 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using EnumMetaverse;
 
 public class Coin : MonoBehaviour
 {
-    [SerializeField] GameObject coin;
-    [SerializeField] int point;
+    public GameObject coin;
+    public CoinConfig coinFig;
 
-    bool checkCollision;
-    Vector3 defaultPosition;
-
+    public bool checkCollision;
+    public Vector3 defaultPosition;
+   
     private void Start()
     {
         defaultPosition = coin.transform.position;
         checkCollision = true;
     }
-    public void SendSignal()
+
+    public virtual void SendSignal()
     {
-        if (checkCollision)
-        {
-            checkCollision = !checkCollision;
-            GameObject.FindWithTag("Player").GetComponent<MyWallet>().AddCoin01(point);
-            FindObjectOfType<CoinController>().SendSignalToCoinController(defaultPosition);
-            Destroy(coin);
-        }
+
     }
 }

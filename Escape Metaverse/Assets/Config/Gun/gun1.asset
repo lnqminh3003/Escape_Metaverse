@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39723215989fc14498cdf80ad5bb0293, type: 3}
   m_Name: gun1
   m_EditorClassIdentifier: 
+  nameGun: Fire Gun
   gun: {fileID: 2562912419997650315, guid: 373fe20a6595cca4f8749de610cb6ffa, type: 3}
   gunProjectile: {fileID: 2156848447484489500, guid: a8e71e09dff8e6745835cb29b8bc3667,
     type: 3}
@@ -19,4 +20,6 @@ MonoBehaviour:
   numberEachReset: 5
   damage: 0
   speed: 80
+  maxNumberSupply: 1
+  price: 100
   typeGun: 0

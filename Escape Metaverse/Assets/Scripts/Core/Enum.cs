@@ -16,4 +16,10 @@ namespace EnumMetaverse
         ice,
         leaf
     }
+
+    public enum TypeCoin
+    {
+        MCoin,
+        VCoin
+    }
 }

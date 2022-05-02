@@ -23,6 +23,12 @@ public class ProjectileController : MonoBehaviour
         }
     }
 
+    public void SetCurrentTypeGun(TypeGun typeGun)
+    {
+        this.currentTypeGun = typeGun;
+        GetComponent<DisplayProjectile>().ChangeGun(GetSprite());
+    }
+
     public void DecreaseProjectile()
     {
         currentProjectile[currentTypeGun] -= 1;
@@ -40,12 +46,6 @@ public class ProjectileController : MonoBehaviour
     public int GetNumberCurrentProjectile()
     {
         return currentProjectile[currentTypeGun];
-    }
-    
-    public void SetCurrentTypeGun(TypeGun typeGun)
-    {
-        this.currentTypeGun = typeGun;
-        GetComponent<DisplayProjectile>().ChangeGun(GetSprite());
     }
 
     public Sprite GetSprite()
