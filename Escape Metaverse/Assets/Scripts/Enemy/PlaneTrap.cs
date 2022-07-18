@@ -12,7 +12,7 @@ public class PlaneTrap : MonoBehaviour
         if (other.tag == "Player" && trap.GetCanDamage() )
         {
             var healthPlayer = other.gameObject.GetComponent<HealthPlayer>();
-            healthPlayer.DamagePlayer(healthPlayer.GetHealth());
+          //  healthPlayer.DamagePlayer(healthPlayer.GetHealth());
         }
     }
 }

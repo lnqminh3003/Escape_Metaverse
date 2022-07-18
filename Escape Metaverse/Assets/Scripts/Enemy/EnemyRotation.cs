@@ -16,7 +16,7 @@ public class EnemyRotation : MonoBehaviour
     {
         if(other.tag =="Player")
         {
-            healthPlayer.DamagePlayer(damage);
+            //healthPlayer.DamagePlayer(damage);
         }
     }
 }

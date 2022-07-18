@@ -41,7 +41,7 @@ public class EnemyProjectile : MonoBehaviour
     {
         if(other.name == "Player")
         {
-            healthPlayer.DamagePlayer(damage);
+            
             Instantiate(effect, gameObject.transform.position, Quaternion.identity);
             Destroy(gameObject);
         }

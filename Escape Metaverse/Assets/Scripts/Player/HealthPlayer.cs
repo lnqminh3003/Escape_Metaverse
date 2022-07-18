@@ -4,16 +4,67 @@ using UnityEngine;
 
 public class HealthPlayer : MonoBehaviour
 {
-    [SerializeField] int health;
+    [Header("Info Health")]
+    public int blood;
+    public int food;
+    public int run;
 
-    public int GetHealth ()
+    [Header("Max Health")]
+    public int maxBlood ;
+    public int maxFood;
+    public int maxRun;
+
+
+    public void ChangeBlood(int damage , bool signal )
     {
-        return health;
+        if(signal)
+        {
+            blood += damage;
+            if(blood >= maxBlood)
+            {
+                blood = maxBlood;
+            }
+            return;
+        }
+
+        blood -= damage;
+        if(blood <=0)
+        {
+            Debug.Log("DIE");
+        }
     }
-    public void DamagePlayer(int damage )
+    public void ChangeFood(int damage , bool signal )
     {
-        health -= damage;
-        if(health <=0)
+        if(signal)
+        {
+            food += damage;
+            if(food >= maxFood)
+            {
+                food = maxFood;
+            }
+            return;
+        }
+        
+        food -= damage;
+        if(food <=0)
+        {
+            Debug.Log("DIE");
+        }
+    }
+    public void ChangeRun(int damage , bool signal )
+    {
+        if(signal)
+        {
+            run += damage;
+            if(run >= maxRun)
+            {
+                run = maxRun;
+            }
+            return;
+        }
+        
+        run -= damage;
+        if(run <=0)
         {
             Debug.Log("DIE");
         }
